@@ -10,12 +10,6 @@ Our repo contains the following directories:
       4- proveit proof command : (a script) to run the 
       5- all proof summaries (and "grandstotals" files).
 
-Tutorials:
-
-- We encourage people who are interested in the work to watch the tutorial videos.
-     tutorial-1- the chain is running on actual examples ( lifting binary and generating PVS).
-     tutorial-2- proving the models.
-     tutorial-3- proof results (proof status (OK vs missed), real time, number of formulas, number PVS files created and verified)
 
 - The formal proofs of the models summaries are shown in tutorial-3. I 
 
@@ -31,8 +25,6 @@ Tutorials:
      - Add myfolder to your PVSLIBPATH. So PVS can see its libraries directly.       
                   
      - run the command ./provethem --force <  asl/names-directory/names.txt  > 
-
- Watch the videos for an example: 
           
 For a quick example, use ./proveit filename.pvs (any file name in the directory will do the trick).
  
