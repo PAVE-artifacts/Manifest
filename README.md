@@ -11,8 +11,6 @@ Our repo contains the following directories:
       5- all proof summaries (and "grandstotals" files).
 
 
-- The formal proofs of the models summaries are shown in tutorial-3. I 
-
 - Assuming you have PVS7 version 7.1.0 : 
   (if you don't then install from here www.csl.sri.com/~owre/drop/pvs-snapshots/  )  
       choose pvs7.1-0-gbe4ad5c-ix86_64-Linux-allegro.tgz 
