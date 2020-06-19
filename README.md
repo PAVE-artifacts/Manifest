@@ -10,20 +10,25 @@ Our repo contains the following directories:
       4- proveit proof command : (a script) to run the 
       5- all proof summaries (and "grandstotals" files).
 
-Short Tutorial:
+Tutorials:
 
-- We encourage people who are interested in the work to watch the tutorial videos to see use-cases and 
-     the chain is running on actual examples before running the tool commands.
-
+- We encourage people who are interested in the work to watch the tutorial videos.
+     1- the chain is running on actual examples ( lifting ) 
+     2- provethem command in action (proving)
+     3- proof results (proof status (OK vs missed), real time, number of formulas, number PVS files created and verified)
 
 - The formal proofs of the models are ready to be re-produced by just doing the following: 
 
-- Assuming you have PVS7 version 7.1.0 : (if you don't then install from here  )  
+- Assuming you have PVS7 version 7.1.0 : 
+  (if you don't then install from here www.csl.sri.com/~owre/drop/pvs-snapshots/  )  
+      choose pvs7.1-0-gbe4ad5c-ix86_64-Linux-allegro.tgz 
 
      - Clone our repo to your PC 
      - cd to the paper-formal-artifacts directory
-     - edit the proofthem script the line: : 
-          and put your PVS7 PATH here.  
+     - extract all parts into one directory and copy all files in part-1,2,3,4 and base into into one directory ( myfolder ).  
+     - edit the proofthem script the line with your editor (say gedit):
+          and put your PVS7 PATH instead. 
+     - Add myfolder to your PVSLIBPATH. So PVS can see its libraries directly.       
                   
      - run the command ./proofthem --force <  names.txt  > 
 
